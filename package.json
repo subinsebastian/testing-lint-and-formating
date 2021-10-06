@@ -9,7 +9,7 @@
 		"format:fix": "npx prettier --write .",
 		"lint:check": "npx eslint './src/**/*.js'",
 		"lint:fix": "npm run lint:check -- --fix",
-		"stylelint:check": "npx stylelint './**/*.scss'",
+		"stylelint:check": "npx stylelint './**/*.css'",
 		"stylelint:fix": "npm run stylelint:check -- --fix",
 		"fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' "
 	},
@@ -24,6 +24,8 @@
 		"prettier-eslint": "^13.0.0",
 		"prettier-eslint-cli": "^5.0.1",
 		"stylelint": "^13.13.1",
-		"stylelint-config-standard": "^22.0.0"
+		"stylelint-config-prettier": "^8.0.2",
+		"stylelint-config-standard": "^22.0.0",
+		"stylelint-prettier": "^1.2.0"
 	}
 }

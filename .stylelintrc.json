@@ -1,7 +1,13 @@
 {
-	"extends": "stylelint-config-standard",
+	"plugins": [
+		"stylelint-prettier"
+	],
+	"extends": [
+		"stylelint-prettier/recommended"
+	],
 	"rules": {
 		"color-no-invalid-hex": true,
-		"indentation": "tab"
+		"indentation": "tab",
+		"prettier/prettier": true
 	}
 }
