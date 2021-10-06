@@ -14,5 +14,6 @@ module.exports = {
 		'no-console': env.prod ? 'error' : 'off',
 		indent: [0, 'tab'],
 		'no-tabs': ['off', { allowIndentationTabs: true }],
+		'no-unused-vars': 'error',
 	},
 };
