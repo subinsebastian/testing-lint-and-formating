@@ -1,5 +1,6 @@
-const foo = 'bar';
+import * as env from '../environments';
 
+const foo = 'bar';
 console.log(foo);
 const abc = ['a', 'b'];
 
