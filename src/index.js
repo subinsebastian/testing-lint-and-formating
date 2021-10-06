@@ -1,6 +1,8 @@
 const foo = 'bar';
 
 console.log(foo);
-var abc = ['a', 'b'];
+const abc = ['a', 'b'];
+
+const pqr = ['a', 'b'];
 
 console.log(abc);
