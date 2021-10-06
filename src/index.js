@@ -7,3 +7,5 @@ const pqr = ['a', 'b'];
 const defg = pqr;
 const xyz = pqr;
 console.log(abc);
+
+const lmn = pqr;
