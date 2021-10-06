@@ -11,7 +11,9 @@
 		"lint:fix": "npm run lint:check -- --fix",
 		"stylelint:check": "npx stylelint './**/*.css'",
 		"stylelint:fix": "npm run stylelint:check -- --fix",
-		"fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' "
+		"fix-codes": "prettier-eslint --write 'src/**/*.{js,jsx}' ",
+		"fix-styles": "npm run stylelint:fix",
+		"prepare": "husky install"
 	},
 	"keywords": [],
 	"author": "",
@@ -21,11 +23,17 @@
 		"eslint-config-airbnb-base": "^14.2.1",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-import": "^2.24.2",
+		"husky": "^7.0.2",
+		"lint-staged": "^11.2.0",
 		"prettier-eslint": "^13.0.0",
 		"prettier-eslint-cli": "^5.0.1",
 		"stylelint": "^13.13.1",
 		"stylelint-config-prettier": "^8.0.2",
 		"stylelint-config-standard": "^22.0.0",
 		"stylelint-prettier": "^1.2.0"
+	},
+	"lint-staged": {
+		"*.js": "npm run fix-codes",
+		"*.css": "npm run fix-styles"
 	}
 }
