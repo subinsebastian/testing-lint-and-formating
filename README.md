@@ -38,3 +38,9 @@ import * as env from '../environments';
 where the errors is: `'env' is defined but never used.eslintno-unused-vars`
 
 **Since this will require us to manually comment it out**
+
+VSCode
+
+---
+
+pre-commit hooks are detectable with the git section gui too. Even `git add --patch` operation is working
