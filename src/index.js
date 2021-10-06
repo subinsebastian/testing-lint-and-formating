@@ -5,5 +5,5 @@ console.log(foo);
 const abc = ['a', 'b'];
 const pqr = ['a', 'b'];
 const defg = pqr;
-
+const xyz = pqr;
 console.log(abc);
