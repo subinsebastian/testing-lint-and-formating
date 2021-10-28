@@ -1,5 +1,5 @@
 const environment = {
-	prod: false,
+	prod: true,
 };
 
 module.exports = environment;

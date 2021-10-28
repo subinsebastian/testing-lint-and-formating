@@ -1,1 +1,3 @@
-const abc = 2;
+const pqr = 3;
+
+Math.abs(pqr);
